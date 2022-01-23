@@ -6,16 +6,47 @@
     <title>Guessing Game</title>
     <link rel="stylesheet" href="main.css">
     <!-- the MAIN.CSS file is linked here -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Open+Sans:wght@300&display=swap" 
+    rel="stylesheet">
+
+<!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1"> -->
+    
+    <script defer src='js/guessing-game.js'></script>
+    <!-- <script defer src='js/guessing10.js'></script> -->
+
+
+
   </head>
 
   <body>
+    <div id = "container">
+    
+  <h1 id="title">My Guessing Game</h1>
+  <h2 id="guessText">Guess a number between 1 to 100</h2>
+  <input type="text" id="guessInput" placeholder="Enter your guess"></input>
+  <button type="submit" id="goButton">Submit</button>    
+  
+  <ul id="guessList">
+    <li id="guess1"></li>
+    <li id="guess2"></li>
+    <li id="guess3"></li>
+    <li id="guess4"></li>
+    <li id="guess5"></li>
+  </ul>
+       
+  <p id = "message"></p>
+  <button type="submit" id = "resetgame">Reset Game</button>
+   </div>
+    
 
 
 
-
-
-    <!-- <script src='js/guessing-game.js'></script> -->
-    <!-- uncomment the script tag above when you are ready to add JavaScript to your document -->
   </body>
 
 </html>
